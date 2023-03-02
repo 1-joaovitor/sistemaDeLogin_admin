@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Anton", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.App {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+  }
+}

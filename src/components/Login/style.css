@@ -1,0 +1,36 @@
+.Form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3;
+  width: 100%;
+}
+.LoginTitle {
+  animation: TitleLogin 0.8s infinite 0.2s;
+}
+
+@keyframes TitleLogin {
+  0% {
+    transform: translate(0);
+  }
+
+  20% {
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    transform: translate(-2px, -2px);
+  }
+
+  60% {
+    transform: translate(2px, 2px);
+  }
+
+  80% {
+    transform: translate(2px, -2px);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
