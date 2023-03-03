@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { SideBar } from "./components/SideBar";
 import { ChartBar } from "./components/Chart";
-import { getCoins } from "./utils/getCoins";
+import { getCoins } from "./services/getCoins";
 
 function App() {
   const [coins, setCoins] = useState([]);

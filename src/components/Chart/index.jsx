@@ -4,7 +4,7 @@ import * as React from "react";
 import "./style.css";
 import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
 import CircularProgress from "@mui/material/CircularProgress";
-import { getCoinUsd } from "../../utils/getCoins";
+import { getCoinUsd } from "../../services/getCoins";
 import toast, { Toaster } from "react-hot-toast";
 
 export const ChartBar = ({ coins }) => {
